@@ -15,18 +15,13 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+__none__
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add kubetail
-# or
 asdf plugin add kubetail https://github.com/kubetail-org/asdf-kubetail.git
 ```
 
@@ -34,7 +29,7 @@ kubetail:
 
 ```shell
 # Show all installable versions
-asdf list-all kubetail
+asdf list all kubetail
 
 # Install specific version
 asdf install kubetail latest
